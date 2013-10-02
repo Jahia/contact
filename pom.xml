@@ -53,7 +53,7 @@
     <packaging>war</packaging>
     <description>This is a custom module for running on a Jahia server.</description>
 
-    $<repositories>
+    <repositories>
         <repository>
             <id>jahia-public</id>
             <name>Jahia Public Repository</name>
