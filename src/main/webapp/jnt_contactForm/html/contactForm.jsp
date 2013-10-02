@@ -98,6 +98,11 @@
                     </select>
                 </p>
             </c:if>
+            <c:if test="${props.contact.boolean}">
+                <p>
+                    <label class="left" for="contact">${fn:escapeXml(jcr:label(props.contact.definition,currentResource.locale))}</label><input type="text" id="contact" name="contact" ${disabled}/>
+                </p>
+            </c:if>
             <c:if test="${props.address.boolean}">
                 <p>
                     <label class="left" for="address">${fn:escapeXml(jcr:label(props.address.definition,currentResource.locale))}</label><input type="text" id="address" name="address" ${disabled}/>
