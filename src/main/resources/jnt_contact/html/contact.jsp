@@ -5,9 +5,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="template" uri="http://www.jahia.org/tags/templateLib" %>
 <c:remove var="itemsList" scope="request"/>
-
-
-<c:forTokens items="firstname,lastname,city,country,remarks" delims="," var="propName" varStatus="status">
+<c:forTokens items="firstname,lastname,title,age,birthdate,gender,profession,maritalStatus,hobbies,contact,address,city,state,zip,country,remarks" delims="," var="propName" varStatus="status">
     <c:if test="${currentNode.parent.properties[propName].boolean}">
         <c:if test="${not empty itemsList}">
             <c:set scope="request" var="itemsList" value="${itemsList},${propName}"/>
