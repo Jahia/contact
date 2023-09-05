@@ -36,5 +36,5 @@
  - zip (boolean)
  - country (boolean)
  - remarks (boolean)
- - captcha (boolean)
+ - captcha (boolean) hidden
  + * (jnt:contact)
