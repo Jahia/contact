@@ -52,7 +52,7 @@
     <version>8.0.0.0</version>
   </parent>
   <artifactId>contact</artifactId>
-  <version>3.1.0</version>
+  <version>3.2.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>Jahia Contact</name>
   <description>These are the custom module (Jahia Contact) for running on a Jahia server.</description>
@@ -60,7 +60,7 @@
     <connection>scm:git:git@github.com:Jahia/contact.git</connection>
     <developerConnection>scm:git:git@github.com:Jahia/contact.git</developerConnection>
     <url>scm:git:git@github.com:Jahia/contact.git</url>
-    <tag>3_1_0</tag>
+    <tag>HEAD</tag>
   </scm>
   <properties>
     <jahia-module-signature>MC0CFA7h72/L6BlerQqNyyzFThPJGNCXAhUAhgaRN0kV8Te5nJinwOCP05NIDBs=</jahia-module-signature>
